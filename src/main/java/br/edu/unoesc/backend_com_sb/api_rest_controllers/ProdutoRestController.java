@@ -19,7 +19,7 @@ import br.edu.unoesc.backend_com_sb.model.Produto;
 @RequestMapping(value = "/api")
 public class ProdutoRestController {
 	Produto p1 = new Produto(1L, "Mesa", 10, new BigDecimal("3.33"));
-	Produto p2 = new Produto(2L, "Cadeira", 20, new BigDecimal("33.33"));
+	Produto p2 = new Produto(2L, "TV", 20, new BigDecimal("33.33"));
 	List<Produto> produtos;
 	
 	public ProdutoRestController() {
